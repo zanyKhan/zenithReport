@@ -54,30 +54,30 @@ zenithReport/
 
 ### 1️⃣ Clone the Repository
 
-    - git clone https://github.com/zanyKhan/zenithReport.git
-    - cd zenithReport
+     git clone https://github.com/zanyKhan/zenithReport.git
+     cd zenithReport
 
   
 ### 2️⃣ Create Virtual Environment
-    - python -m venv env
-    - env\Scripts\activate
+    python -m venv env
+    env\Scripts\activate
 
     
 ### 3️⃣ Install Dependencies
-    - pip install -r requirements.txt
+    pip install -r requirements.txt
 
     
 ### 4️⃣ Run Migrations
-    - python manage.py makemigrations
-    - python manage.py migrate
+    python manage.py makemigrations
+    python manage.py migrate
 
     
 ### 5️⃣ Create Superuser
-    - python manage.py createsuperuser
+    python manage.py createsuperuser
 
     
 ### 6️⃣ Run Server
-    - python manage.py runserver
+    python manage.py runserver
 
     
 ---
