@@ -40,9 +40,10 @@ zenithReport/
 │── blog_main/ # Main project settings
 │── blogs/ # Blog app (posts, categories)
 │── dashboard/ # Dashboard & user management
+│── media/ # User-uploaded files
 │── social_links/ # Social media links
 │── templates/ # HTML templates
-│── static/ # CSS, JS, images
+│── db.sqlite3/ # default database file
 │── manage.py # Django project entry point
 │── requirements.txt # Dependencies
 ```
