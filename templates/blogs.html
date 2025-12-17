@@ -11,7 +11,12 @@
                     <div class="text-muted fst-italic mb-2">Posted on {{ single_blog.created_at }} by {{ single_blog.author }}</div>
                     <a class="badge bg-warning text-decoration-none text-light" href="#!">{{ single_blog.category }}</a>
                 </header>
-                <figure class="mb-4"><img class="img-fluid rounded" src="{{ single_blog.featured_image.url }}" alt="..." /></figure>
+                <figure class="mb-4">
+                    <img src="{{ single_blog.featured_image.url }}"
+                        class="img-fluid rounded w-100"
+                        style="height:300px; object-fit:cover;"
+                        alt="...">
+                </figure>
                 <section class="mb-5">
                     <p class="fs-5 mb-4">{{ single_blog.short_description }}</p>
                     <p class="fs-5 mb-4">{{ single_blog.blog_body }}</p>
